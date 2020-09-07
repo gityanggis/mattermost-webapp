@@ -1,0 +1,957 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/AdminSidebar Plugins should filter plugins 1`] = `
+<div
+  className="admin-sidebar"
+>
+  <Connect(SidebarHeader) />
+  <div
+    className="filter-container"
+  >
+    <SearchIcon
+      aria-hidden="true"
+      className="search__icon"
+    />
+    <QuickInput
+      className="filter active"
+      clearable={true}
+      delayInputUpdate={false}
+      id="adminSidebarFilter"
+      onChange={[Function]}
+      onClear={[Function]}
+      placeholder="Find settings"
+      type="text"
+      value="autolink"
+    />
+  </div>
+  <Scrollbars
+    autoHeight={false}
+    autoHeightMax={200}
+    autoHeightMin={0}
+    autoHide={true}
+    autoHideDuration={500}
+    autoHideTimeout={500}
+    hideTracksWhenNotNeeded={false}
+    renderThumbHorizontal={[Function]}
+    renderThumbVertical={[Function]}
+    renderTrackHorizontal={[Function]}
+    renderTrackVertical={[Function]}
+    renderView={[Function]}
+    tagName="div"
+    thumbMinSize={30}
+    universal={false}
+  >
+    <div
+      className="nav-pills__container"
+    >
+      <Highlight
+        filter="autolink"
+      >
+        <ul
+          className="nav nav-pills nav-stacked"
+        >
+          <AdminSidebarCategory
+            definitionKey="plugins"
+            icon="fa-plug"
+            key="plugins"
+            parentLink="/admin_console"
+            sectionClass=""
+            title={
+              <FormattedMessage
+                defaultMessage="Plugins (Beta)"
+                id="admin.sidebar.plugins"
+                values={Object {}}
+              />
+            }
+          >
+            <AdminSidebarSection
+              key="custompluginmattermost-autolink"
+              name="plugins/plugin_mattermost-autolink"
+              parentLink=""
+              subsection={false}
+              title="Autolink"
+            />
+          </AdminSidebarCategory>
+        </ul>
+      </Highlight>
+    </div>
+  </Scrollbars>
+</div>
+`;
+
+exports[`components/AdminSidebar Plugins should match snapshot 1`] = `
+<div
+  className="admin-sidebar"
+>
+  <Connect(SidebarHeader) />
+  <div
+    className="filter-container"
+  >
+    <SearchIcon
+      aria-hidden="true"
+      className="search__icon"
+    />
+    <QuickInput
+      className="filter "
+      clearable={true}
+      delayInputUpdate={false}
+      id="adminSidebarFilter"
+      onChange={[Function]}
+      onClear={[Function]}
+      placeholder="Find settings"
+      type="text"
+      value=""
+    />
+  </div>
+  <Scrollbars
+    autoHeight={false}
+    autoHeightMax={200}
+    autoHeightMin={0}
+    autoHide={true}
+    autoHideDuration={500}
+    autoHideTimeout={500}
+    hideTracksWhenNotNeeded={false}
+    renderThumbHorizontal={[Function]}
+    renderThumbVertical={[Function]}
+    renderTrackHorizontal={[Function]}
+    renderTrackVertical={[Function]}
+    renderView={[Function]}
+    tagName="div"
+    thumbMinSize={30}
+    universal={false}
+  >
+    <div
+      className="nav-pills__container"
+    >
+      <Highlight
+        filter=""
+      >
+        <ul
+          className="nav nav-pills nav-stacked"
+        >
+          <AdminSidebarCategory
+            definitionKey="plugins"
+            icon="fa-plug"
+            key="plugins"
+            parentLink="/admin_console"
+            sectionClass=""
+            title={
+              <FormattedMessage
+                defaultMessage="Plugins (Beta)"
+                id="admin.sidebar.plugins"
+                values={Object {}}
+              />
+            }
+          >
+            <AdminSidebarSection
+              definitionKey="plugins.plugin_management"
+              key="plugins.plugin_management"
+              name="plugins/plugin_management"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="Plugin Management"
+                  id="admin.plugins.pluginManagement"
+                  values={Object {}}
+                />
+              }
+            />
+            <AdminSidebarSection
+              key="custompluginmattermost-autolink"
+              name="plugins/plugin_mattermost-autolink"
+              parentLink=""
+              subsection={false}
+              title="Autolink"
+            />
+          </AdminSidebarCategory>
+        </ul>
+      </Highlight>
+    </div>
+  </Scrollbars>
+</div>
+`;
+
+exports[`components/AdminSidebar should match snapshot 1`] = `
+<div
+  className="admin-sidebar"
+>
+  <Connect(SidebarHeader) />
+  <div
+    className="filter-container"
+  >
+    <SearchIcon
+      aria-hidden="true"
+      className="search__icon"
+    />
+    <QuickInput
+      className="filter "
+      clearable={true}
+      delayInputUpdate={false}
+      id="adminSidebarFilter"
+      onChange={[Function]}
+      onClear={[Function]}
+      placeholder="Find settings"
+      type="text"
+      value=""
+    />
+  </div>
+  <Scrollbars
+    autoHeight={false}
+    autoHeightMax={200}
+    autoHeightMin={0}
+    autoHide={true}
+    autoHideDuration={500}
+    autoHideTimeout={500}
+    hideTracksWhenNotNeeded={false}
+    renderThumbHorizontal={[Function]}
+    renderThumbVertical={[Function]}
+    renderTrackHorizontal={[Function]}
+    renderTrackVertical={[Function]}
+    renderView={[Function]}
+    tagName="div"
+    thumbMinSize={30}
+    universal={false}
+  >
+    <div
+      className="nav-pills__container"
+    >
+      <Highlight
+        filter=""
+      >
+        <ul
+          className="nav nav-pills nav-stacked"
+        >
+          <AdminSidebarCategory
+            definitionKey="reporting"
+            icon="fa-bar-chart"
+            key="reporting"
+            parentLink="/admin_console"
+            sectionClass=""
+            title={
+              <FormattedMessage
+                defaultMessage="Reporting"
+                id="admin.sidebar.reporting"
+                values={Object {}}
+              />
+            }
+          >
+            <AdminSidebarSection
+              definitionKey="reporting.system_analytics"
+              key="reporting.system_analytics"
+              name="reporting/system_analytics"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="Site Statistics"
+                  id="admin.sidebar.siteStatistics"
+                  values={Object {}}
+                />
+              }
+            />
+            <AdminSidebarSection
+              definitionKey="reporting.team_statistics"
+              key="reporting.team_statistics"
+              name="reporting/team_statistics"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="Team Statistics"
+                  id="admin.sidebar.teamStatistics"
+                  values={Object {}}
+                />
+              }
+            />
+            <AdminSidebarSection
+              definitionKey="reporting.server_logs"
+              key="reporting.server_logs"
+              name="reporting/server_logs"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="Server Logs"
+                  id="admin.sidebar.logs"
+                  values={Object {}}
+                />
+              }
+            />
+          </AdminSidebarCategory>
+          <AdminSidebarCategory
+            definitionKey="environment"
+            icon="fa-server"
+            key="environment"
+            parentLink="/admin_console"
+            sectionClass=""
+            title={
+              <FormattedMessage
+                defaultMessage="Environment"
+                id="admin.sidebar.environment"
+                values={Object {}}
+              />
+            }
+          >
+            <AdminSidebarSection
+              definitionKey="environment.web_server"
+              key="environment.web_server"
+              name="environment/web_server"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="Web Server"
+                  id="admin.sidebar.webServer"
+                  values={Object {}}
+                />
+              }
+            />
+            <AdminSidebarSection
+              definitionKey="environment.database"
+              key="environment.database"
+              name="environment/database"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="Database"
+                  id="admin.sidebar.database"
+                  values={Object {}}
+                />
+              }
+            />
+            <AdminSidebarSection
+              definitionKey="environment.storage"
+              key="environment.storage"
+              name="environment/file_storage"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="File Storage"
+                  id="admin.sidebar.fileStorage"
+                  values={Object {}}
+                />
+              }
+            />
+            <AdminSidebarSection
+              definitionKey="environment.image_proxy"
+              key="environment.image_proxy"
+              name="environment/image_proxy"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="Image Proxy"
+                  id="admin.sidebar.imageProxy"
+                  values={Object {}}
+                />
+              }
+            />
+            <AdminSidebarSection
+              definitionKey="environment.smtp"
+              key="environment.smtp"
+              name="environment/smtp"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="SMTP"
+                  id="admin.sidebar.smtp"
+                  values={Object {}}
+                />
+              }
+            />
+            <AdminSidebarSection
+              definitionKey="environment.push_notification_server"
+              key="environment.push_notification_server"
+              name="environment/push_notification_server"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="Push Notification Server"
+                  id="admin.sidebar.pushNotificationServer"
+                  values={Object {}}
+                />
+              }
+            />
+            <AdminSidebarSection
+              definitionKey="environment.rate_limiting"
+              key="environment.rate_limiting"
+              name="environment/rate_limiting"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="Rate Limiting"
+                  id="admin.sidebar.rateLimiting"
+                  values={Object {}}
+                />
+              }
+            />
+            <AdminSidebarSection
+              definitionKey="environment.logging"
+              key="environment.logging"
+              name="environment/logging"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="Logging"
+                  id="admin.sidebar.logging"
+                  values={Object {}}
+                />
+              }
+            />
+            <AdminSidebarSection
+              definitionKey="environment.session_lengths"
+              key="environment.session_lengths"
+              name="environment/session_lengths"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="Session Lengths"
+                  id="admin.sidebar.sessionLengths"
+                  values={Object {}}
+                />
+              }
+            />
+            <AdminSidebarSection
+              definitionKey="environment.developer"
+              key="environment.developer"
+              name="environment/developer"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="Developer"
+                  id="admin.sidebar.developer"
+                  values={Object {}}
+                />
+              }
+            />
+          </AdminSidebarCategory>
+          <AdminSidebarCategory
+            definitionKey="authentication"
+            icon="fa-shield"
+            key="authentication"
+            parentLink="/admin_console"
+            sectionClass=""
+            title={
+              <FormattedMessage
+                defaultMessage="Authentication"
+                id="admin.sidebar.authentication"
+                values={Object {}}
+              />
+            }
+          >
+            <AdminSidebarSection
+              definitionKey="authentication.signup"
+              key="authentication.signup"
+              name="authentication/signup"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="Signup"
+                  id="admin.sidebar.signup"
+                  values={Object {}}
+                />
+              }
+            />
+            <AdminSidebarSection
+              definitionKey="authentication.email"
+              key="authentication.email"
+              name="authentication/email"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="Email"
+                  id="admin.sidebar.email"
+                  values={Object {}}
+                />
+              }
+            />
+            <AdminSidebarSection
+              definitionKey="authentication.password"
+              key="authentication.password"
+              name="authentication/password"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="Password"
+                  id="admin.sidebar.password"
+                  values={Object {}}
+                />
+              }
+            />
+            <AdminSidebarSection
+              definitionKey="authentication.mfa"
+              key="authentication.mfa"
+              name="authentication/mfa"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="MFA"
+                  id="admin.sidebar.mfa"
+                  values={Object {}}
+                />
+              }
+            />
+            <AdminSidebarSection
+              definitionKey="authentication.gitlab"
+              key="authentication.gitlab"
+              name="authentication/gitlab"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="GitLab"
+                  id="admin.sidebar.gitlab"
+                  values={Object {}}
+                />
+              }
+            />
+          </AdminSidebarCategory>
+          <AdminSidebarCategory
+            definitionKey="plugins"
+            icon="fa-plug"
+            key="plugins"
+            parentLink="/admin_console"
+            sectionClass=""
+            title={
+              <FormattedMessage
+                defaultMessage="Plugins (Beta)"
+                id="admin.sidebar.plugins"
+                values={Object {}}
+              />
+            }
+          >
+            <AdminSidebarSection
+              definitionKey="plugins.plugin_management"
+              key="plugins.plugin_management"
+              name="plugins/plugin_management"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="Plugin Management"
+                  id="admin.plugins.pluginManagement"
+                  values={Object {}}
+                />
+              }
+            />
+            <AdminSidebarSection
+              key="custompluginplugin_0"
+              name="plugins/plugin_plugin_0"
+              parentLink=""
+              subsection={false}
+              title="Plugin 0"
+            />
+          </AdminSidebarCategory>
+          <AdminSidebarCategory
+            definitionKey="integrations"
+            icon="fa-sitemap"
+            key="integrations"
+            parentLink="/admin_console"
+            sectionClass=""
+            title={
+              <FormattedMessage
+                defaultMessage="Integrations"
+                id="admin.sidebar.integrations"
+                values={Object {}}
+              />
+            }
+          >
+            <AdminSidebarSection
+              definitionKey="integrations.integration_management"
+              key="integrations.integration_management"
+              name="integrations/integration_management"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="Integration Management"
+                  id="admin.integrations.integrationManagement"
+                  values={Object {}}
+                />
+              }
+            />
+            <AdminSidebarSection
+              definitionKey="integrations.bot_accounts"
+              key="integrations.bot_accounts"
+              name="integrations/bot_accounts"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="Bot Accounts"
+                  id="admin.integrations.botAccounts"
+                  values={Object {}}
+                />
+              }
+            />
+            <AdminSidebarSection
+              definitionKey="integrations.gif"
+              key="integrations.gif"
+              name="integrations/gif"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="GIF (Beta)"
+                  id="admin.sidebar.gif"
+                  values={Object {}}
+                />
+              }
+            />
+            <AdminSidebarSection
+              definitionKey="integrations.cors"
+              key="integrations.cors"
+              name="integrations/cors"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="CORS"
+                  id="admin.sidebar.cors"
+                  values={Object {}}
+                />
+              }
+            />
+          </AdminSidebarCategory>
+          <AdminSidebarCategory
+            definitionKey="experimental"
+            icon="fa-flask"
+            key="experimental"
+            parentLink="/admin_console"
+            sectionClass=""
+            title={
+              <FormattedMessage
+                defaultMessage="Experimental"
+                id="admin.sidebar.experimental"
+                values={Object {}}
+              />
+            }
+          >
+            <AdminSidebarSection
+              definitionKey="experimental.experimental_features"
+              key="experimental.experimental_features"
+              name="experimental/features"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="Features"
+                  id="admin.sidebar.experimentalFeatures"
+                  values={Object {}}
+                />
+              }
+            />
+            <AdminSidebarSection
+              definitionKey="experimental.bleve"
+              key="experimental.bleve"
+              name="experimental/blevesearch"
+              parentLink=""
+              subsection={false}
+              title={
+                <FormattedMessage
+                  defaultMessage="Bleve"
+                  id="admin.sidebar.blevesearch"
+                  values={Object {}}
+                />
+              }
+            />
+          </AdminSidebarCategory>
+        </ul>
+      </Highlight>
+    </div>
+  </Scrollbars>
+</div>
+`;
+
+exports[`components/AdminSidebar should match snapshot, no access 1`] = `
+<div
+  className="admin-sidebar"
+>
+  <Connect(SidebarHeader) />
+  <div
+    className="filter-container"
+  >
+    <SearchIcon
+      aria-hidden="true"
+      className="search__icon"
+    />
+    <QuickInput
+      className="filter "
+      clearable={true}
+      delayInputUpdate={false}
+      id="adminSidebarFilter"
+      onChange={[Function]}
+      onClear={[Function]}
+      placeholder="Find settings"
+      type="text"
+      value=""
+    />
+  </div>
+  <Scrollbars
+    autoHeight={false}
+    autoHeightMax={200}
+    autoHeightMin={0}
+    autoHide={true}
+    autoHideDuration={500}
+    autoHideTimeout={500}
+    hideTracksWhenNotNeeded={false}
+    renderThumbHorizontal={[Function]}
+    renderThumbVertical={[Function]}
+    renderTrackHorizontal={[Function]}
+    renderTrackVertical={[Function]}
+    renderView={[Function]}
+    tagName="div"
+    thumbMinSize={30}
+    universal={false}
+  >
+    <div
+      className="nav-pills__container"
+    >
+      <Highlight
+        filter=""
+      >
+        <ul
+          className="nav nav-pills nav-stacked"
+        />
+      </Highlight>
+    </div>
+  </Scrollbars>
+</div>
+`;
+
+exports[`components/AdminSidebar should match snapshot, not prevent the console from loading when empty settings_schema provided 1`] = `
+<div
+  className="admin-sidebar"
+>
+  <Connect(SidebarHeader) />
+  <div
+    className="filter-container"
+  >
+    <SearchIcon
+      aria-hidden="true"
+      className="search__icon"
+    />
+    <QuickInput
+      className="filter "
+      clearable={true}
+      delayInputUpdate={false}
+      id="adminSidebarFilter"
+      onChange={[Function]}
+      onClear={[Function]}
+      placeholder="Find settings"
+      type="text"
+      value=""
+    />
+  </div>
+  <Scrollbars
+    autoHeight={false}
+    autoHeightMax={200}
+    autoHeightMin={0}
+    autoHide={true}
+    autoHideDuration={500}
+    autoHideTimeout={500}
+    hideTracksWhenNotNeeded={false}
+    renderThumbHorizontal={[Function]}
+    renderThumbVertical={[Function]}
+    renderTrackHorizontal={[Function]}
+    renderTrackVertical={[Function]}
+    renderView={[Function]}
+    tagName="div"
+    thumbMinSize={30}
+    universal={false}
+  >
+    <div
+      className="nav-pills__container"
+    >
+      <Highlight
+        filter=""
+      >
+        <ul
+          className="nav nav-pills nav-stacked"
+        />
+      </Highlight>
+    </div>
+  </Scrollbars>
+</div>
+`;
+
+exports[`components/AdminSidebar should match snapshot, render plugins without any settings as well 1`] = `
+<div
+  className="admin-sidebar"
+>
+  <Connect(SidebarHeader) />
+  <div
+    className="filter-container"
+  >
+    <SearchIcon
+      aria-hidden="true"
+      className="search__icon"
+    />
+    <QuickInput
+      className="filter "
+      clearable={true}
+      delayInputUpdate={false}
+      id="adminSidebarFilter"
+      onChange={[Function]}
+      onClear={[Function]}
+      placeholder="Find settings"
+      type="text"
+      value=""
+    />
+  </div>
+  <Scrollbars
+    autoHeight={false}
+    autoHeightMax={200}
+    autoHeightMin={0}
+    autoHide={true}
+    autoHideDuration={500}
+    autoHideTimeout={500}
+    hideTracksWhenNotNeeded={false}
+    renderThumbHorizontal={[Function]}
+    renderThumbVertical={[Function]}
+    renderTrackHorizontal={[Function]}
+    renderTrackVertical={[Function]}
+    renderView={[Function]}
+    tagName="div"
+    thumbMinSize={30}
+    universal={false}
+  >
+    <div
+      className="nav-pills__container"
+    >
+      <Highlight
+        filter=""
+      >
+        <ul
+          className="nav nav-pills nav-stacked"
+        />
+      </Highlight>
+    </div>
+  </Scrollbars>
+</div>
+`;
+
+exports[`components/AdminSidebar should match snapshot, with license (with all feature) 1`] = `
+<div
+  className="admin-sidebar"
+>
+  <Connect(SidebarHeader) />
+  <div
+    className="filter-container"
+  >
+    <SearchIcon
+      aria-hidden="true"
+      className="search__icon"
+    />
+    <QuickInput
+      className="filter "
+      clearable={true}
+      delayInputUpdate={false}
+      id="adminSidebarFilter"
+      onChange={[Function]}
+      onClear={[Function]}
+      placeholder="Find settings"
+      type="text"
+      value=""
+    />
+  </div>
+  <Scrollbars
+    autoHeight={false}
+    autoHeightMax={200}
+    autoHeightMin={0}
+    autoHide={true}
+    autoHideDuration={500}
+    autoHideTimeout={500}
+    hideTracksWhenNotNeeded={false}
+    renderThumbHorizontal={[Function]}
+    renderThumbVertical={[Function]}
+    renderTrackHorizontal={[Function]}
+    renderTrackVertical={[Function]}
+    renderView={[Function]}
+    tagName="div"
+    thumbMinSize={30}
+    universal={false}
+  >
+    <div
+      className="nav-pills__container"
+    >
+      <Highlight
+        filter=""
+      >
+        <ul
+          className="nav nav-pills nav-stacked"
+        />
+      </Highlight>
+    </div>
+  </Scrollbars>
+</div>
+`;
+
+exports[`components/AdminSidebar should match snapshot, with license (without any explicit feature) 1`] = `
+<div
+  className="admin-sidebar"
+>
+  <Connect(SidebarHeader) />
+  <div
+    className="filter-container"
+  >
+    <SearchIcon
+      aria-hidden="true"
+      className="search__icon"
+    />
+    <QuickInput
+      className="filter "
+      clearable={true}
+      delayInputUpdate={false}
+      id="adminSidebarFilter"
+      onChange={[Function]}
+      onClear={[Function]}
+      placeholder="Find settings"
+      type="text"
+      value=""
+    />
+  </div>
+  <Scrollbars
+    autoHeight={false}
+    autoHeightMax={200}
+    autoHeightMin={0}
+    autoHide={true}
+    autoHideDuration={500}
+    autoHideTimeout={500}
+    hideTracksWhenNotNeeded={false}
+    renderThumbHorizontal={[Function]}
+    renderThumbVertical={[Function]}
+    renderTrackHorizontal={[Function]}
+    renderTrackVertical={[Function]}
+    renderView={[Function]}
+    tagName="div"
+    thumbMinSize={30}
+    universal={false}
+  >
+    <div
+      className="nav-pills__container"
+    >
+      <Highlight
+        filter=""
+      >
+        <ul
+          className="nav nav-pills nav-stacked"
+        />
+      </Highlight>
+    </div>
+  </Scrollbars>
+</div>
+`;
